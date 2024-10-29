@@ -61,6 +61,7 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.0-rc.2.24503.2" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0-rc.2.24473.5" />
 		<PackageReference Include="Microsoft.Maui.Controls.Core" Version="9.0.0-rc.2.24503.2" />
+		<PackageReference Include="Syncfusion.Maui.Charts" Version="27.1.57" />
 	</ItemGroup>
 
 	<ItemGroup>
