@@ -13,6 +13,8 @@ namespace ProsperDaily
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("LibreFranklin-Regular.ttf", "Regular");
+                    fonts.AddFont("Roboto-Black.ttf", "Strong");
                 });
 
 #if DEBUG
