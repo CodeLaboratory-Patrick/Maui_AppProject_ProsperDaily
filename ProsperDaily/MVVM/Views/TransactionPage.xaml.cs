@@ -7,9 +7,9 @@ using Microsoft.Maui.Controls;
 
 namespace ProsperDaily.MVVM.Views;
 
-public partial class DashboardPage : ContentPage
+public partial class TransactionPage : ContentPage
 {
-    public DashboardPage()
+    public TransactionPage()
     {
         InitializeComponent();
     }

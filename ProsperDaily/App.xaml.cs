@@ -1,4 +1,5 @@
-﻿using ProsperDaily.MVVM.Views;
+﻿using Microsoft.Maui.Controls;
+using ProsperDaily.MVVM.Views;
 
 namespace ProsperDaily
 {
@@ -8,7 +9,7 @@ namespace ProsperDaily
         {
             InitializeComponent();
 
-            MainPage = new DashboardPage();
+            MainPage = new TransactionPage();
         }
     }
 }

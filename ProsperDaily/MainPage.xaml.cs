@@ -1,4 +1,8 @@
-﻿namespace ProsperDaily
+﻿using System;
+using Microsoft.Maui.Accessibility;
+using Microsoft.Maui.Controls;
+
+namespace ProsperDaily
 {
     public partial class MainPage : ContentPage
     {

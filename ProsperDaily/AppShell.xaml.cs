@@ -1,4 +1,6 @@
-﻿namespace ProsperDaily
+﻿using Microsoft.Maui.Controls;
+
+namespace ProsperDaily
 {
     public partial class AppShell : Shell
     {
