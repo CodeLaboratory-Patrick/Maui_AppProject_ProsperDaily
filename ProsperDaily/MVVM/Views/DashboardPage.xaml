@@ -22,32 +22,35 @@
                   StyleClass="Padding25" />
             <VerticalStackLayout>
                 <Label Text="Total Balance" />
-                <Label StyleClass="StrongTitle" Text="$1,234.00" />
+                <Label StyleClass="StrongTitle" Text="{Binding Balance, StringFormat='{0:C}'}" />
             </VerticalStackLayout>
 
             <VerticalStackLayout Grid.Row="2">
                 <Label Text="Income" />
-                <Label StyleClass="StrongTitle" Text="$1,234.00" />
+                <Label StyleClass="StrongTitle" Text="{Binding Income, StringFormat='{0:C}'}" />
             </VerticalStackLayout>
 
             <VerticalStackLayout Grid.Row="2"
                                  Grid.Column="1"
                                  HorizontalOptions="Center">
                 <Label Text="Expenses" />
-                <Label StyleClass="StrongTitle" Text="$1,234.00" />
+                <Label StyleClass="StrongTitle" Text="{Binding Expenses, StringFormat='{0:C}'}" />
             </VerticalStackLayout>
         </Grid>
 
         <Button Grid.Row="2"
                 StyleClass="CircularButton"
-                Text="+" />
+                Text="+"
+                x:Name="AddTransaction"
+                Clicked="AddTransaction_OnClicked"/>
 
         <Grid Grid.Row="3"
               RowDefinitions=".1*, .9*"
               StyleClass="Margin15">
             <Label Text="Transaction" />
             <CollectionView Grid.Row="1"
-                            EmptyView="No Data">
+                            EmptyView="No Data"
+                            ItemsSource="{Binding Transactions}">
                 <CollectionView.ItemsLayout>
                     <LinearItemsLayout ItemSpacing="15"
                                        Orientation="Vertical" />
@@ -61,32 +64,17 @@
                         </Grid>
                     </DataTemplate>
                 </CollectionView.EmptyViewTemplate>
-
-                <CollectionView.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>mono</x:String>
-                        <x:String>monodroid</x:String>
-                        <x:String>monotouch</x:String>
-                        <x:String>monorail</x:String>
-                        <x:String>monodevelop</x:String>
-                        <x:String>monotone</x:String>
-                        <x:String>monopoly</x:String>
-                        <x:String>monomodal</x:String>
-                        <x:String>mononucleosis</x:String>
-                    </x:Array>
-                </CollectionView.ItemsSource>
-
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Grid ColumnDefinitions="*,*" RowDefinitions="*,*">
-                            <Label StyleClass="StrongMediumTitle" Text="Transaction" />
+                            <Label StyleClass="StrongMediumTitle" Text="{Binding Name}" />
                             <Label Grid.Row="1"
                                    StyleClass="SmallFont"
-                                   Text="Today" />
+                                   Text="{Binding OperationDate, StringFormat='{0:MM/dd/yyyy}'}" />
                             <Label Grid.Row="2"
                                    Grid.Column="1"
                                    StyleClass="ListAmount"
-                                   Text="+ $500.00" />
+                                   Text="{Binding Amount, StringFormat='{0:C}'}" />
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

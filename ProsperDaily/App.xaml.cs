@@ -1,5 +1,4 @@
-﻿using Microsoft.Maui.Controls;
-using ProsperDaily.MVVM.Models;
+﻿using ProsperDaily.MVVM.Models;
 using ProsperDaily.MVVM.Views;
 using ProsperDaily.Repositories;
 
@@ -14,7 +13,7 @@ namespace ProsperDaily
             
             TransactionsRepo = _transactionsRepo;
             
-            MainPage = new TransactionPage();
+            MainPage = new NavigationPage(new DashboardPage());
         }
     }
 }
