@@ -13,7 +13,7 @@ namespace ProsperDaily
             
             TransactionsRepo = _transactionsRepo;
             
-            MainPage = new StatisticsPage();
+            MainPage = new AppContainer();
         }
     }
 }
