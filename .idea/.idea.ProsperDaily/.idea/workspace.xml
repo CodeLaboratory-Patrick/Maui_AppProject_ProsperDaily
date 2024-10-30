@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="101bf32e-9194-4cc4-9def-8af9f5c8e43c" name="Changes" comment="Creating the DashboardPage Design.">
-      <change afterPath="$PROJECT_DIR$/ProsperDaily/MVVM/Views/TransactionPage.xaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProsperDaily/MVVM/Views/TransactionPage.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProsperDaily/App.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProsperDaily/App.xaml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProsperDaily/ProsperDaily.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProsperDaily/ProsperDaily.csproj" afterDir="false" />
+    <list default="true" id="101bf32e-9194-4cc4-9def-8af9f5c8e43c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProsperDaily/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProsperDaily/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +33,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/patrick_donghwi_park_london/RiderProjects/Maui_AppProject_ProsperDaily/ProsperDaily/App.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/Android/MainActivity.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/Android/MainApplication.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/iOS/AppDelegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/Android/MainApplication.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/MacCatalyst/AppDelegate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProsperDaily/Platforms/iOS/AppDelegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///usr/local/share/dotnet/packs/Microsoft.iOS.Sdk.net8.0_18.0/18.0.8303/tools/msbuild/iOS/Xamarin.Shared.targets" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="InvalidFacetManager">
@@ -57,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android.ProsperDaily.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android.ProsperDaily.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Android.ProsperDaily">
     <configuration name="ProsperDaily" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/ProsperDaily/ProsperDaily.csproj" />
@@ -108,6 +105,8 @@
       <updated>1730189347162</updated>
       <workItem from="1730189348256" duration="751000" />
       <workItem from="1730190107979" duration="3659000" />
+      <workItem from="1730202045020" duration="257000" />
+      <workItem from="1730202671115" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="Creating and Configuring the project.">
       <option name="closed" value="true" />
